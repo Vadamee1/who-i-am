@@ -13,7 +13,9 @@ export default function DedicatoryLayout({
 }) {
   return (
     <section className="h-screen bg-sky-100">
-      <div className="grid justify-center items-center h-full">{children}</div>
+      <div className="grid justify-center items-center h-full px-5">
+        {children}
+      </div>
     </section>
   );
 }

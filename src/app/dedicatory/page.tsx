@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function Dedicatory() {
   return (
-    <Card className="w-96 bg-gradient-to-br from-pink-100 to-rose-100 border-2 border-rose-300 shadow-lg">
+    <Card className="w-96 bg-gradient-to-br from-pink-100 to-rose-100 border-2 border-rose-300 shadow-lg rounded-2xl">
       <CardHeader>
         <CardTitle className="flex justify-between">
           <Image alt="Girasol" src="/imgs/girasol.ico" height={40} width={40} />
