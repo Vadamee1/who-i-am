@@ -1,3 +1,4 @@
+import Gifts from "@/components/pages/dedicatory/Gifts";
 import {
   Card,
   CardContent,
@@ -23,13 +24,7 @@ export default function Dedicatory() {
             Son para ti, conejita. 🐰
           </p>
         </div>
-        <Image
-          alt="Ramo de flores"
-          className="rounded-2xl border-2 border-pink-500"
-          src="/imgs/ramo.jpeg"
-          height={500}
-          width={350}
-        />
+        <Gifts />
       </CardContent>
       <CardFooter className="grid">
         <div className="text-center text-sm text-gray-600">
